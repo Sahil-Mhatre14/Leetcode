@@ -9,7 +9,7 @@
         if hashMap(nextChar) <= hashMap(char),
          res = res + hashMap(char)
         else
-         res  res + hashMap(char)
+         res  res - hashMap(char)
     3. return res
          
  */
