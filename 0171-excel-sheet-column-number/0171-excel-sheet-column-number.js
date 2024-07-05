@@ -20,14 +20,10 @@
 //     return res
 // };
 
-
 var titleToNumber = function(columnTitle) {
-   var res=0;
-
-   for(var i = columnTitle.length - 1; i>=0; i--) {
-    var charOffset = columnTitle.charCodeAt(i) - 64
-    res = res + (charOffset * Math.pow(26, columnTitle.length - i - 1))
-   }
-
-   return res
+    var res = 0;
+    for(var i = 0; i < columnTitle.length; i++) {
+        res = res + (columnTitle.charCodeAt(i) - 64) * Math.pow(26, columnTitle.length - i - 1)
+    }
+    return res
 };
