@@ -27,7 +27,7 @@ var countPrimes = function(n) {
 
     for (var i = 2; i <= limit; i++) {
         if (composites[i] === false) {
-            for (var j = i * i; j <= n; j+=i) {
+            for (var j = i * i; j < n; j+=i) {
                 composites[j] = true
             }
         }
