@@ -11,7 +11,6 @@
  * @return {number[]}
  */
 var inorderTraversal = function(root) {
-    var res = []
 
     if (!root) return []
 
@@ -23,8 +22,8 @@ var inorderTraversal = function(root) {
         if (node?.right) {
             inorder(res, node.right)
         }
+        return res
     }
 
-    inorder(res, root)
-    return res
+   return inorder([], root)
 };
