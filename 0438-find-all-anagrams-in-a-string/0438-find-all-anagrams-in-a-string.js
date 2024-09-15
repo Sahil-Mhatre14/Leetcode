@@ -24,6 +24,7 @@ var l = 0
     check if sMap equals to pMap
 }
 5. return res
+
  */
 // var findAnagrams = function(s, p) {
 //     var res = []
@@ -73,18 +74,6 @@ var findAnagrams = function(s,p) {
     var pMap={}
     var res= []
 
-    // var isAnagram = () => {
-    //     if (Object.keys(sMap).length != Object.keys(pMap)) {
-    //         return false
-    //     }
-    //     for (var key in pMap) {
-    //         if (sMap[key] != pMap[key]) {
-    //             return false
-    //         }
-    //     }
-    //     return true
-
-    // }
     var isAnagram = () => {
         for (var key in pMap) {
             if (sMap[key] !== pMap[key]) {
