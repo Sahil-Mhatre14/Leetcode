@@ -11,7 +11,7 @@ sMap={}
 var l = 0
 2. count chars in p and store in pMap
    at same time, make sMap similarly
-   if both maps are equal, return true
+   if both maps are equal, add 0 to res
 3. for r from p.length to s.length {
     sMap[r] = (sMap[r] || 0) + 1
     decrement s[l] count from sMap
