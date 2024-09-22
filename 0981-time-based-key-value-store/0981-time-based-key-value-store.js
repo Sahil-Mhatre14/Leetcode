@@ -14,7 +14,7 @@ TimeMap.prototype.set = function(key, value, timestamp) {
     }
     this.store[key].push({
         value: value,
-        timestamp: timestamp  // Use lowercase "timestamp" consistently
+        timestamp: timestamp 
     });
 };
 
@@ -31,7 +31,7 @@ TimeMap.prototype.get = function(key, timestamp) {
     var r = this.store[key].length - 1;
 
     while (l <= r) {
-        var mid = Math.floor((l + r) / 2);  // Use Math.floor to get an integer index
+        var mid = Math.floor((l + r) / 2); 
         if (this.store[key][mid].timestamp <= timestamp) {
             res = this.store[key][mid].value;
             l = mid + 1;
