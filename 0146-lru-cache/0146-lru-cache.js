@@ -63,14 +63,14 @@ LRUCache.prototype.put = function(key, value) {
     if (this.cache[key]) {
         // If the key already exists, remove it before updating
         this.remove(this.cache[key]);
-        this.currentSize--; // Decrease size since we're replacing the existing node
+        // this.currentSize--; // Decrease size since we're replacing the existing node
     }
     
     // Create a new node and insert it
     let newNode = new Node(key, value);
     this.cache[key] = newNode;
     this.insert(newNode);
-    this.currentSize++; // Increase size since a new node is added
+    // this.currentSize++; // Increase size since a new node is added
     
     // If cache exceeds capacity, remove the least recently used node
     if (this.currentSize > this.capacity) {
@@ -78,7 +78,7 @@ LRUCache.prototype.put = function(key, value) {
         let lru = this.left.next;
         this.remove(lru);
         delete this.cache[lru.key];  // Remove it from the cache
-        this.currentSize--; // Decrease size after removal
+        // this.currentSize--; // Decrease size after removal
     }
 };
 
@@ -91,6 +91,7 @@ LRUCache.prototype.insert = function(node) {
     next.prev = node;
     node.prev = prev;
     node.next = next;
+    this.currentSize++
 };
 
 // Remove a node from the doubly linked list
@@ -100,6 +101,8 @@ LRUCache.prototype.remove = function(node) {
     
     prev.next = next;
     next.prev = prev;
+
+    this.currentSize--
 };
 
 /** 
