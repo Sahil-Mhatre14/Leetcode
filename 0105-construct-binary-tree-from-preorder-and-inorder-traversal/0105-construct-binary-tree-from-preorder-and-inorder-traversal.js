@@ -19,9 +19,9 @@
 
  recursive call builTree with new preorder and inorder
 
- 1. if (!root) return null
+ 1. if (!(preorder.length > 0 || inorder.length > 0)) return null
  2. root = new Node(preorder[0])
-    mid = inorder.indexOf(root)
+    mid = inorder.indexOf(preorder[0])
     root.left = buildTree(preOrder[1: mid + 1], inOrder.slice(: mid))
     root.right = buildTree(preorder.slice(mid + 1), inorder(mid + 1))
  3. return root
