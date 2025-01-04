@@ -6,7 +6,7 @@
  /*
  Same as longest palindromic substring
  maintain a couter res
- increment it for each palindromic substring found
+ increment counter for each palindromic substring found.
  */
 var countSubstrings = function(s) {
     let res = 0
