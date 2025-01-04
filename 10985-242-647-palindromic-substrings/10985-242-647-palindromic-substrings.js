@@ -15,7 +15,7 @@ var countSubstrings = function(s) {
         let l = i
         let r = i
 
-        while (l >=0 && r < s.length && s[l] == s[r]) {
+        while (l >=0 && r < s.length && s[l] == s[r]){
             res++
             l--
             r++
