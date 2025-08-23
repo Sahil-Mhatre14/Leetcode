@@ -30,7 +30,8 @@ class Solution:
             else:
                 bucket[val] = [key]
         
-        for b in bucket[::-1]:
+        for i in range(len(bucket) - 1, -1, -1):
+            b = bucket[i]
             if len(b) > 0 and k > 0:
                 for n in b:
                     res.append(n)
