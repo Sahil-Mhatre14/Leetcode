@@ -1,5 +1,5 @@
 '''
-1. set = covnert nums to set
+1. set = convert nums to set
 longest = 0
 2.
 for each n in set:
