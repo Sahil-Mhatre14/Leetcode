@@ -12,7 +12,8 @@
      fix ith element, problem is now reduced to 2Sum
      l = i+1
      r = last element
-     3sum = l + r
+     while (l<r) {
+     3sum = l + r + fixedElement
      if 3sum > 0,
        r = r-1
      else if 3sum < 0,
@@ -20,8 +21,9 @@
      else
        res.push([ith element, l, r])
        l = l + 1
-       while l != prev l and l < r,
+       while l = prev l and l < r,
          l = l + 1
+    }
 4. return res
  */
 var threeSum = function(nums) {
@@ -42,6 +44,9 @@ var threeSum = function(nums) {
                 r--
             } else if (sum < 0) {
                 l++
+                while (nums[l] == nums[l-1] && l < r) {
+                    l++
+                }
             } else {
                 res.push([nums[i], nums[l], nums[r]])
                 l++
