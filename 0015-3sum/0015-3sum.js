@@ -44,9 +44,6 @@ var threeSum = function(nums) {
                 r--
             } else if (sum < 0) {
                 l++
-                while (nums[l] == nums[l-1] && l < r) {
-                    l++
-                }
             } else {
                 res.push([nums[i], nums[l], nums[r]])
                 l++
