@@ -10,6 +10,7 @@ class Solution:
 
         while (l <= r):
             mid = (l + r) // 2
+            row = matrix[mid]
 
             if (matrix[mid][-1] < target):
                 l = mid + 1
@@ -21,11 +22,8 @@ class Solution:
         if (not(l <= r)):
             return False
 
-        mid = (l + r) // 2
-        row = matrix[mid]
-        print(row)
         l = 0
-        r = len(matrix[0]) - 1
+        r = len(row) - 1
 
         while (l <= r):
             mid = (l + r) // 2
