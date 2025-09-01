@@ -1,6 +1,6 @@
 '''
 1. Apply binary search to find correct row
-compare target with first element of the row
+compare target with first and last element of the row
 2. in the correct row, apply binary search to find target
 '''
 class Solution:
@@ -13,7 +13,7 @@ class Solution:
 
             if (matrix[mid][-1] < target):
                 l = mid + 1
-            elif (matrix[mid][-1] > target):
+            elif (matrix[mid][0] > target):
                 r = mid - 1
             else:
                 break
