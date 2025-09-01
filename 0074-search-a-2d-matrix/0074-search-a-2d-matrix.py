@@ -8,7 +8,7 @@ class Solution:
         l = 0
         r = len(matrix) - 1
 
-        while (l < r):
+        while (l <= r):
             mid = (l + r) // 2
 
             if (matrix[mid][-1] < target):
@@ -17,7 +17,7 @@ class Solution:
                 r = mid - 1
             else:
                 break
-        print(l, r)
+    
         if (not(l <= r)):
             return False
 
