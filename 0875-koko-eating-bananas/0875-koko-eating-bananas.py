@@ -1,13 +1,13 @@
 '''
 1. Use binary search from min eating speed to max eating speed
-min eating speed (l) = min(piles)
+min eating speed (l) = 1
 max eating speed (r) = max(piles)
 '''
 
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
         piles.sort()
-        l = piles[0]
+        l = 1
         r = piles[-1]
         res = r
 
