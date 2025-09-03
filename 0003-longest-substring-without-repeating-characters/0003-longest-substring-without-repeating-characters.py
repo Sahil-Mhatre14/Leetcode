@@ -17,7 +17,6 @@ class Solution:
         res = 0
         charSet = set()
         l = 0
-        r = 0
 
         for r in range(0, len(s)):
             while s[r] in charSet:
