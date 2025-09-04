@@ -21,7 +21,7 @@ class Solution:
 
         for r in range(0, len(s)):
             charMap[s[r]] = charMap.get(s[r], 0) + 1
-            print(charMap)
+    
             while ((r - l + 1) - max(charMap.values()) > k):
                 charMap[s[l]] -= 1
                 l += 1
