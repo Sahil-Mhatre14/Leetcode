@@ -3,10 +3,14 @@
  */
 
  /*
+ Do not update hashMap in insert or delete helper functions
  1. implement Node class
  2. cache={} //hashTable to store key and pointer to nodes as val
  capaicty = initialized capacity
+ currentSize=0
  left and right will be dummy node in DLL form
+ left points to LRU
+ right points to most recently used
  3. get(key)
  remove the node pointed by key in cache
  insert the node
@@ -17,6 +21,11 @@
  }
  5. insert(node) {
 - insert between right and it's prev
+- currentSize++
+ }
+ 6. delete(node) {
+- delete node 
+- currentSize--
  }
 
  */
@@ -63,14 +72,12 @@ LRUCache.prototype.put = function(key, value) {
     if (this.cache[key]) {
         // If the key already exists, remove it before updating
         this.remove(this.cache[key]);
-        // this.currentSize--; // Decrease size since we're replacing the existing node
     }
     
     // Create a new node and insert it
     let newNode = new Node(key, value);
     this.cache[key] = newNode;
     this.insert(newNode);
-    // this.currentSize++; // Increase size since a new node is added
     
     // If cache exceeds capacity, remove the least recently used node
     if (this.currentSize > this.capacity) {
@@ -78,7 +85,6 @@ LRUCache.prototype.put = function(key, value) {
         let lru = this.left.next;
         this.remove(lru);
         delete this.cache[lru.key];  // Remove it from the cache
-        // this.currentSize--; // Decrease size after removal
     }
 };
 
