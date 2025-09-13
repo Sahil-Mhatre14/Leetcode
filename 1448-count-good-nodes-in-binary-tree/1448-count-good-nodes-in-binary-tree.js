@@ -18,8 +18,8 @@
     if (node.val >= max) {
         good++
     }
-    dfs(node.left, Math.max(max, node.max))
-    dfs(node.right, Math.max(max, node.max))
+    dfs(node.left, Math.max(max, node.val))
+    dfs(node.right, Math.max(max, node.val))
     }
 3. dfs(root, root.val)
 4. return good
