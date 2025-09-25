@@ -14,6 +14,7 @@ class Solution:
                 if rooms[i][j] == 0:
                     q.append((i,j))
                     visited.add((i,j))
+                    
 
         while (len(q) > 0):
             size = len(q)
@@ -21,6 +22,7 @@ class Solution:
             for i in range(size):
                 (x, y) = q.popleft()
                 rooms[x][y] = dist
+                visited.add((x,y))
 
                 directions = [(0,1), (0,-1), (1,0), (-1,0)]
 
