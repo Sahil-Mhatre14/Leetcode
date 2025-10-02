@@ -32,15 +32,15 @@ var countComponents = function(n, edges) {
     }
 
     const dfs = (node) => {
-        // if (visited.has(node)) {
-        //     return
-        // }
+        if (visited.has(node)) {
+            return
+        }
         visited.add(node)
 
         for (let neighbour of adj[node]) {
-            if (visited.has(neighbour)) {
-                continue
-            }
+            // if (visited.has(neighbour)) {
+            //     continue
+            // }
             dfs(neighbour)
         }
         return
