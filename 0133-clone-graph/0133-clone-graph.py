@@ -22,5 +22,7 @@ class Solution:
                 newNode.neighbors.append(clone(neighbour))
             
             return newNode
-
-        return clone(node) if node else None
+        if node:
+            clone(node)
+        return cloneMap[node.val] if node else None
+        #return clone(node) if node else None
