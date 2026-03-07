@@ -13,31 +13,28 @@ res = []
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        res = []
         hashMap = {}
-
-        for num in nums:
-            hashMap[num] = hashMap.get(num, 0) + 1
+        res = []
 
         bucket = []
 
-        for i in range(len(nums) + 1):
+        for i in range (len(nums) + 1):
             bucket.append([])
-
+        
+        for n in nums:
+            hashMap[n] = hashMap.get(n, 0) + 1
+        
         for key, val in hashMap.items():
-            if len(bucket[val]) > 0:
                 bucket[val].append(key)
-            else:
-                bucket[val] = [key]
-        
+
         for i in range(len(bucket) - 1, -1, -1):
-            b = bucket[i]
-            if len(b) > 0 and k > 0:
-                for n in b:
+            if(len(bucket[i]) > 0):
+                for n in bucket[i]:
                     res.append(n)
-                    k -= 1
+                    k-=1
                     if k == 0:
-                        break
-        
+                        return res
+
         return res
+                
                 
