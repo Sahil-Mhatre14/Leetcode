@@ -24,9 +24,6 @@ class Solution:
         for i in range(len(nums) - 2, -1, -1):
             suffix[i] = suffix[i + 1] * nums[i + 1]
 
-        print(prefix)
-        print(suffix)
-
         for i in range(len(nums)):
             res[i] = prefix[i] * suffix[i]
 
