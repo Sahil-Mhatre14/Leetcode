@@ -32,7 +32,6 @@ class Codec:
             while (s[i] != '#'):
                 length += s[i]
                 i+=1
-            print(length)
 
             num_length = int(length)
             res.append(s[i+1: i+1+num_length])
