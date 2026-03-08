@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0001-two-sum/) | Easy |
+| [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Hash Table
 |  |
@@ -35,4 +36,12 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+## String
+|  |
+| ------- |
+| [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
+## Design
+|  |
+| ------- |
+| [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
 <!---LeetCode Topics End-->
