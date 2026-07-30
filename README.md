@@ -6,6 +6,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -14,6 +15,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -53,4 +55,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0238-product-of-array-except-self) |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 <!---LeetCode Topics End-->
