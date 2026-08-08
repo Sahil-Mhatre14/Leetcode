@@ -3,17 +3,17 @@ class Solution:
         res = 0
         l = 0
         r = len(height) - 1
-        maxL = height[l]
-        maxR = height[r]
+        lMax = height[l]
+        rMax = height[r]
 
         while (l < r):
-            if (maxL <= maxR):
+            if (lMax <= rMax):
                 l += 1
-                maxL = max(maxL, height[l])
-                res = res + (maxL - height[l])
+                lMax = max(lMax, height[l])
+                res = res + (lMax - height[l])
             else:
                 r -= 1
-                maxR = max(maxR, height[r])
-                res = res + (maxR - height[r])
-
+                rMax = max(rMax, height[r])
+                res = res +(rMax - height[r])
+        
         return res
