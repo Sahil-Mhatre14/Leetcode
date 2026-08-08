@@ -6,6 +6,7 @@
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0015-3sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0015-3sum/) | Medium |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0238-product-of-array-except-self) |
@@ -66,12 +67,22 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0015-3sum/) | Medium |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 ## Bracket Sequences
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 <!---LeetCode Topics End-->
