@@ -1,40 +1,21 @@
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
-        # stack = []
-        # arr = []
-
-        # for i in range(len(position)):
-        #     arr.append((position[i], speed[i]))
-
-        # arr.sort(reverse=True)
-
-
-        # for car in arr:
-        #     (pos, v) = car
-        #     t = (target - pos)/v
-        #     stack.append(t)
-
-        #     if (len(stack) > 1 and stack[-1] <= stack[-2]):
-        #         stack.pop()
-            
-        # return len(stack)
-
-        stack = []
         arr = []
-        
+        s = []
+
         for i in range(len(position)):
             arr.append((position[i], speed[i]))
-
+        
         arr.sort(reverse=True)
 
-        timeArr = []
+        for i in range(len(arr)):
+            time = (target - arr[i][0]) / arr[i][1]
+            s.append(time)
+            if len(s) >= 2 and (s[-1] <= s[-2]):
+                s.pop()
+        
+        return len(s)
 
-        for car in arr:
-            t = (target - car[0]) / car[1]
-            timeArr.append(t)
-
-            if len(timeArr) > 1 and t <= timeArr[-2]:
-                timeArr.pop()
-
-        return len(timeArr)
+        
+        
             
