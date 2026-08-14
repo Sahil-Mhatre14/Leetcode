@@ -8,6 +8,7 @@
 | [0015-3sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0238-product-of-array-except-self) |
@@ -99,4 +100,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 <!---LeetCode Topics End-->
