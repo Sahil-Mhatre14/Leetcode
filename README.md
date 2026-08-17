@@ -15,6 +15,7 @@
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0704-binary-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0704-binary-search/) | Easy |
 | [0739-daily-temperatures](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0853-car-fleet/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
@@ -107,6 +108,7 @@
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0704-binary-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0704-binary-search/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
