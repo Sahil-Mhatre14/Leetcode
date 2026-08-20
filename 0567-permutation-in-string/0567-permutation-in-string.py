@@ -22,6 +22,5 @@ class Solution:
                 del map2[s2[i]]
             
             map2[s2[i + len(s1)]] = map2.get(s2[i + len(s1)], 0) + 1
-            i = i + len(s1)
         
         return True if areMapsEqual() else False
