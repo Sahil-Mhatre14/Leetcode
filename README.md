@@ -84,6 +84,7 @@
 | ------- | ------- |
 | [0015-3sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
+| [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -91,6 +92,7 @@
 | [0020-valid-parentheses](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0739-daily-temperatures](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0853-car-fleet/) | Medium |
 ## Bracket Sequences
@@ -135,8 +137,10 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 <!---LeetCode Topics End-->
