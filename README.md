@@ -83,6 +83,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0015-3sum/) | Medium |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
@@ -136,6 +137,7 @@
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 ## Recursion
