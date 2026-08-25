@@ -14,29 +14,26 @@ class Solution:
         while (f and f.next):
             f = f.next.next
             s = s.next
-
+        
         curr = s.next
-        s.next = None
         prev = None
+        s.next = None
 
         while curr:
             temp = curr.next
             curr.next = prev
             prev = curr
             curr = temp
-            
-        s = prev
+        
         f = head
+        s = prev
 
-        while (s):
+        while s:
             temp1 = f.next
             temp2 = s.next
-
             f.next = s
             s.next = temp1
-
             f = temp1
             s = temp2
         
         return head
-        
