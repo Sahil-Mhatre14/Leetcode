@@ -16,6 +16,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
+| [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0704-binary-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0704-binary-search/) | Easy |
 | [0739-daily-temperatures](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0739-daily-temperatures/) | Medium |
@@ -87,6 +88,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
+| [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -123,6 +125,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
+| [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0704-binary-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0704-binary-search/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 ## Matrix
@@ -153,4 +156,16 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
+## Pigeonhole Principle
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
+## Floyd's Cycle Finding Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 <!---LeetCode Topics End-->
