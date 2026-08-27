@@ -9,19 +9,19 @@ class Solution:
         curr = dummy
         carry = 0
 
-        while (l1 or l2 or carry):
-            n1 = l1.val if l1 else 0
-            n2 = l2.val if l2 else 0
+        while l1 or l2 or carry:
+            num1 = l1.val if l1 else 0
+            num2 = l2.val if l2 else 0
 
-            s = n1 + n2 + carry
-            v = s % 10
-            carry = s // 10
+            total = num1 + num2 + carry
+            s = total % 10
+            carry = total // 10
 
-            newNode = ListNode(v)
-            curr.next = newNode
-            curr = newNode
+            resNode = ListNode(s)
+            curr.next = resNode
+            curr = resNode
 
             l1 = l1.next if l1 else None
             l2 = l2.next if l2 else None
-
+        
         return dummy.next
