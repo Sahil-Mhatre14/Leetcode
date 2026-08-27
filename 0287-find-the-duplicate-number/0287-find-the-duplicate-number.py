@@ -1,7 +1,7 @@
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
-        f = 0
         s = 0
+        f = 0
 
         while True:
             s = nums[s]
@@ -9,11 +9,11 @@ class Solution:
 
             if s == f:
                 break
-
+        
         s2 = 0
 
-        while (s != s2):
+        while s != s2:
             s = nums[s]
             s2 = nums[s2]
-
+        
         return s
