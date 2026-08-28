@@ -17,7 +17,7 @@ class Solution:
             left = dfs(root.left)
             right = dfs(root.right)
 
-            height = max(left, right) + 1
+            height = 1 + max(left, right)
 
             res = max(res, left + right)
 
@@ -25,3 +25,4 @@ class Solution:
 
         dfs(root)
         return res
+            
