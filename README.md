@@ -168,4 +168,20 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
