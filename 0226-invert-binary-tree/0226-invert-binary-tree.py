@@ -8,7 +8,7 @@ class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         curr = root
 
-        if not curr:
+        if not root:
             return
         
         temp = curr.left
