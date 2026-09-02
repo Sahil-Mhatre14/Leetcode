@@ -180,6 +180,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0572-subtree-of-another-tree/) | Easy |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -189,11 +190,13 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0572-subtree-of-another-tree/) | Easy |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -203,6 +206,7 @@
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0572-subtree-of-another-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0572-subtree-of-another-tree/) | Easy |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## DP on Trees
 | Problem Name | Difficulty |
 | ------- | ------- |
