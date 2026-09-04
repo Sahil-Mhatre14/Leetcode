@@ -12,33 +12,32 @@ class WordDictionary:
         curr = self.root
 
         for ch in word:
-            if not(ch in curr.children):
+            if ch not in curr.children:
                 curr.children[ch] = TrieNode()
             curr = curr.children[ch]
-        
+
         curr.endOfWord = True
 
     def search(self, word: str) -> bool:
-        
         def dfs(root, i):
             curr = root
 
             for j in range(i, len(word)):
                 ch = word[j]
 
-                if (ch == '.'):
+                if ch == '.':
                     for child in curr.children:
-                        if dfs(child, j + 1):
+                        if dfs(curr.children[child], j + 1):
                             return True
                     return False
-
                 else:
-                    if not(ch in curr.children):
+                    if ch not in curr.children:
                         return False
                     curr = curr.children[ch]
+            
             return curr.endOfWord
 
-        dfs(self.root, 0)
+        return dfs(self.root, 0)
 
 
 # Your WordDictionary object will be instantiated and called as such:
