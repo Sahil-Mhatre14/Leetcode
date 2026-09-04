@@ -72,6 +72,7 @@
 | [0020-valid-parentheses](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
@@ -80,6 +81,7 @@
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -196,6 +198,7 @@
 | [0098-validate-binary-search-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0226-invert-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
@@ -255,4 +258,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 <!---LeetCode Topics End-->
