@@ -33,6 +33,7 @@
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0146-lru-cache](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0146-lru-cache/) | Medium |
+| [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
@@ -70,6 +71,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0020-valid-parentheses](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
@@ -77,6 +79,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0146-lru-cache/) | Medium |
+| [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -248,4 +251,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 <!---LeetCode Topics End-->
