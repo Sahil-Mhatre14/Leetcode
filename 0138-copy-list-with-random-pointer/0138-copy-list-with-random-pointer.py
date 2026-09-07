@@ -13,7 +13,7 @@ class Solution:
 
         curr = head
         while curr:
-            nodeMap[curr] = Node(curr.val, curr.next, curr.random)
+            nodeMap[curr] = Node(curr.val)
             curr = curr.next
         
         curr = head
