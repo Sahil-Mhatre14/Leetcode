@@ -34,6 +34,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
+| [0141-linked-list-cycle](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0146-lru-cache](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -99,6 +100,7 @@
 | [0015-3sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0015-3sum/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
+| [0141-linked-list-cycle](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
@@ -157,6 +159,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0138-copy-list-with-random-pointer](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
+| [0141-linked-list-cycle](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0146-lru-cache](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0206-reverse-linked-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
@@ -183,6 +186,7 @@
 ## Floyd's Cycle Finding Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
