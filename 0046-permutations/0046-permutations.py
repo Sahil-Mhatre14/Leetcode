@@ -5,15 +5,14 @@ class Solution:
         if len(nums) == 1:
             return [nums.copy()]
 
-        for i in range(len(nums)):
+        for i in range(0, len(nums)):
             n = nums.pop(0)
+            per = self.permute(nums)
 
-            perms = self.permute(nums)
+            for p in per:
+                p.append(n)
+                res.append(p)
 
-            for perm in perms:
-                perm.append(n)
-                res.append(perm)
-            
             nums.append(n)
-
+        
         return res
