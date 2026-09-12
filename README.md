@@ -14,6 +14,7 @@
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0078-subsets](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0090-subsets-ii](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
@@ -77,6 +78,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0020-valid-parentheses](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
@@ -149,6 +151,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -208,6 +211,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
@@ -279,5 +283,6 @@
 | [0040-combination-sum-ii](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0046-permutations/) | Medium |
 | [0078-subsets](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 <!---LeetCode Topics End-->
