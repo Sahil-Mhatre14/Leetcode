@@ -12,6 +12,7 @@
 | [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0046-permutations](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0046-permutations/) | Medium |
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0051-n-queens](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0078-subsets](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
@@ -287,8 +288,13 @@
 | [0039-combination-sum](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0046-permutations/) | Medium |
+| [0051-n-queens](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
+## Algorithm X
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0051-n-queens](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0051-n-queens/) | Hard |
 <!---LeetCode Topics End-->
