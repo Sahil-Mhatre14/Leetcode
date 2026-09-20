@@ -1,38 +1,37 @@
 class Solution:
-    def solveNQueens(self, n: int) -> List[List[str]]:
+    def solveNQueens(self, n: int) -> list[list[str]]:
         res = []
         board = []
-        cols = set()
+        col = set()
         posD = set()
         negD = set()
 
-        for i in range (n):
-            board.append(["."] * n)
+        for r in range(n):
+                board.append(["."] * n)
 
         def backtrack(r):
+            temp = []
             if r >= n:
-                combination = []
-                temp = board.copy()
-                for r in temp:
-                    combination.append("".join(r))
-                res.append(combination)
+                for r in range(n):
+                    temp.append("".join(board[r]))
+                res.append(temp)
                 return
 
-            for c in range(n):
-                if c in cols or (r+c) in posD or (r-c) in negD:
+            for c in range(0, n):
+                if c in col or (r+c) in posD or (r-c) in negD:
                     continue
-
-                board[r][c] = 'Q'
-                cols.add(c)
+                
+                col.add(c)
                 posD.add(r+c)
                 negD.add(r-c)
+                board[r][c] = 'Q'
 
                 backtrack(r+1)
 
-                board[r][c] = '.'
-                cols.remove(c)
+                col.remove(c)
                 posD.remove(r+c)
                 negD.remove(r-c)
+                board[r][c] = '.'
 
         backtrack(0)
         return res
