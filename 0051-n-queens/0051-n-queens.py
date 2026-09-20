@@ -10,8 +10,8 @@ class Solution:
                 board.append(["."] * n)
 
         def backtrack(r):
-            temp = []
             if r >= n:
+                temp = []
                 for r in range(n):
                     temp.append("".join(board[r]))
                 res.append(temp)
