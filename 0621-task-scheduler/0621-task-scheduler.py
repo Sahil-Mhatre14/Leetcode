@@ -1,5 +1,5 @@
 class Solution:
-    def leastInterval(self, tasks: List[str], n: int) -> int:
+    def leastInterval(self, tasks: list[str], n: int) -> int:
         freq = [0] * 26
 
         for task in tasks:
@@ -7,10 +7,10 @@ class Solution:
 
         freq.sort(reverse=True)
 
-        gaps = freq[0] - 1
+        gaps = max(freq) - 1
         idle = gaps * n
 
-        for i in range(1,26):
-            idle = idle - min(gaps, freq[i])
-
-        return len(tasks) if idle <= 0 else idle + len(tasks) 
+        for i in range(1, 26):
+            idle = idle - min(freq[i], gaps)
+        
+        return len(tasks) + idle if idle > 0 else len(tasks)
