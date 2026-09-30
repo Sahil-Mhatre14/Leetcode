@@ -16,7 +16,7 @@ class Twitter:
 
         feed = []
         count = 0
-        userFollowing = self.users.get(userId, set())
+        userFollowing = self.users.get(userId)
         for i in range(len(self.tweets) - 1, -1, -1):
             if self.tweets[i]["userId"] == userId or self.tweets[i]["userId"] in userFollowing:
                 feed.append(self.tweets[i]["tweetId"])
