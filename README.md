@@ -48,6 +48,7 @@
 | [0146-lru-cache](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0355-design-twitter](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0355-design-twitter/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0567-permutation-in-string/) | Medium |
 | [0621-task-scheduler](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0621-task-scheduler/) | Medium |
@@ -73,6 +74,7 @@
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0355-design-twitter](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0355-design-twitter/) | Medium |
 | [0621-task-scheduler](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0973-k-closest-points-to-origin/) | Medium |
@@ -113,6 +115,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0271-encode-and-decode-strings](https://github.com/Sahil-Mhatre14/Leetcode/tree/master/0271-encode-and-decode-strings) |
+| [0355-design-twitter](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0355-design-twitter/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -193,6 +196,7 @@
 | [0143-reorder-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0143-reorder-list/) | Medium |
 | [0146-lru-cache](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0206-reverse-linked-list](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
+| [0355-design-twitter](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0355-design-twitter/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
