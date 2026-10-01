@@ -1,35 +1,36 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        numOfIslands = 0
-        visited = set()
         rows = len(grid)
         cols = len(grid[0])
+        visited = set()
+        num_of_islands = 0
 
         def bfs(i, j):
-            q = collections.deque()
-            q.append((i,j))
+            if (i,j) in visited or i >= rows or i < 0 or j >=cols or j < 0 or grid[i][j] != "1" :
+                return
+            
+            visited.add((i,j))
 
+            q = []
+            q.append((i, j))
             while len(q) > 0:
-                xr, xc = q.popleft()
-                visited.add((xr,xc))
+                (r, c) = q.pop(0)
 
-                directions = [(0,1), (0,-1), (1,0), (-1,0)]
+                directions = [(0,1), (0, -1), (1,0), (-1,0)]
 
-                for (dx, dy) in directions:
-                    r = xr + dx
-                    c = xc + dy
+                for (xr, xc) in directions:
+                    dr = r + xr
+                    dc = c + xc
 
-                    if (r < rows and r >= 0 and c < cols and c >= 0
-                    and grid[r][c] == "1" and (r,c) not in visited):
-                        q.append((r,c))
-                        visited.add((r,c))
+                    if (dr, dc) not in visited and dr >= 0 and dr < rows and dc >= 0 and dc < cols  and grid[dr][dc] == "1":
+                        visited.add((dr, dc))
+                        q.append((dr, dc))
+
 
         for i in range(rows):
             for j in range(cols):
-                if (i,j) not in visited and grid[i][j] == "1":
-                    bfs(i,j)
-                    numOfIslands += 1
+                if grid[i][j] == "1" and (i,j) not in visited:
+                    bfs(i, j)
+                    num_of_islands += 1
         
-        return numOfIslands
-
-                
+        return num_of_islands
