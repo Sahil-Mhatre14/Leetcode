@@ -6,14 +6,14 @@ class Solution:
         cols = len(grid[0])
 
         def bfs(i,j, currArea):
-            q = []
+            q = collections.deque()
             q.append((i,j))
             visited.add((i,j))
 
             directions = [(0,1), (0,-1), (1,0), (-1,0)]
 
             while (len(q) > 0):
-                xr, xc = q.pop(0)
+                xr, xc = q.popleft()
                 currArea += 1
 
                 for (dr, dc) in directions:
