@@ -26,25 +26,23 @@ return res
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         res = []
-        stack = []
-        openN = 0
-        closeN = 0
+        s = []
 
         def backtrack(openN, closeN):
-            if (openN == closeN == n):
-                res.append("".join(stack))
+            if openN == closeN == n:
+                res.append("".join(s))
                 return
-
+            
             if openN < n:
-                stack.append("(")
+                s.append('(')
                 backtrack(openN + 1, closeN)
-                stack.pop()
-
+                s.pop()
+            
             if closeN < openN:
-                stack.append(")")
+                s.append(')')
                 backtrack(openN, closeN + 1)
-                stack.pop()
-
-        backtrack(0,0)
-
+                s.pop()
+            
+        backtrack(0, 0)
         return res
+
