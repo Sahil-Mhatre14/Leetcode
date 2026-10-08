@@ -3,7 +3,7 @@ class Solution:
         res = []
         curr = []
 
-        def isPalindrome(i,j):
+        def isPalindrome(i, j):
             while i < j:
                 if s[i] != s[j]:
                     return False
@@ -15,12 +15,12 @@ class Solution:
             if i >= len(s):
                 res.append(curr.copy())
                 return
-            
+
             for j in range(i, len(s)):
                 if isPalindrome(i, j):
-                    curr.append(s[i: j+1])
-                    dfs(j+1)
+                    curr.append(s[i : j + 1])
+                    dfs(j + 1)
                     curr.pop()
-        
+
         dfs(0)
         return res
