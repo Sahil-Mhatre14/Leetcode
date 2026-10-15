@@ -3,14 +3,14 @@ class Solution:
         minutes = 0
         rows = len(grid)
         cols = len(grid[0])
-        visited = set()
+        
         q = collections.deque()
 
         for r in range(rows):
             for c in range(cols):
                 if grid[r][c] == 2:
                     q.append((r,c))
-                    visited.add((r,c))
+                    
 
         while len(q) > 0:
             lenq = len(q)
@@ -23,13 +23,13 @@ class Solution:
                     nr = r + dr
                     nc = c + dc
 
-                    if nr < 0 or nr >= rows or nc < 0 or nc >= cols or (nr,nc) in visited or grid[nr][nc] != 1:
+                    if nr < 0 or nr >= rows or nc < 0 or nc >= cols or grid[nr][nc] != 1:
                         continue
                     
                     changed = True
                     grid[nr][nc] = 2
                     q.append((nr,nc))
-                    visited.add((nr,nc))
+                   
             if changed:
                 minutes += 1
 
