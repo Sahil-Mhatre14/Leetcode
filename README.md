@@ -21,6 +21,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0130-surrounded-regions](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0200-number-of-islands](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
@@ -130,6 +131,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0130-surrounded-regions](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
 ## Two Pointers
@@ -188,6 +190,7 @@
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
+| [0130-surrounded-regions](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0695-max-area-of-island](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0695-max-area-of-island/) | Medium |
@@ -257,6 +260,7 @@
 | [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0110-balanced-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0130-surrounded-regions](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
@@ -271,6 +275,7 @@
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0200-number-of-islands](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0226-invert-binary-tree](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0226-invert-binary-tree/) | Easy |
