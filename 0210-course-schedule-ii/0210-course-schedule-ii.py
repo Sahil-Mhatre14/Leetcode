@@ -1,36 +1,36 @@
 class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        res = []
+    def findOrder(self, numCourses: int, prerequisites: list[list[int]]) -> list[int]:
+        taken = []
         visited = set()
-        cycle = set()
-        preMap = {}
+        prereq = {}
 
         for i in range(numCourses):
-            preMap[i] = []
+            prereq[i] = []
 
         for [course, pre] in prerequisites:
-            preMap[course].append(pre)
+            prereq[course].append(pre)
 
-        def dfs(i):
-            if i in visited:
+        def dfs(course):
+            if course in taken:
                 return True
             
-            if i in cycle:
+            if course in visited:
                 return False
 
-            cycle.add(i)
+            visited.add(course)
 
-            for pre in preMap[i]:
-                if not(dfs(pre)):
+            for pre in prereq[course]:
+                if not dfs(pre):
                     return False
-            
-            cycle.remove(i)
-            visited.add(i)
-            res.append(i)
+
+            visited.remove(course)
+            taken.append(course)
             return True
+            
 
-        for course in range(numCourses):
-            if not(dfs(course)):
+
+        for i in range(numCourses):
+            if not dfs(i):
                 return []
-
-        return res
+        
+        return taken
