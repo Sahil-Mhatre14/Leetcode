@@ -1,7 +1,8 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: list[list[int]]) -> list[int]:
-        taken = []
+        taken = set()
         visited = set()
+        res = [] 
         prereq = {}
 
         for i in range(numCourses):
@@ -24,7 +25,8 @@ class Solution:
                     return False
 
             visited.remove(course)
-            taken.append(course)
+            res.append(course)
+            taken.add(course)
             return True
             
 
@@ -33,4 +35,4 @@ class Solution:
             if not dfs(i):
                 return []
         
-        return taken
+        return res
