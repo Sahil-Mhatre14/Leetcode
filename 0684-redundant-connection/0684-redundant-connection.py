@@ -1,44 +1,25 @@
-'''
-1. adjMap = {}
-2. iterate over edges
-add entries in adjMap
-for n1,n2 in edges:
-    if dfs(n1,n2):
-        return edge
-3.
-dfs(prev, node, target):
-    if node = target:
-        return True
-
-    for neighbour of node:
-        if neighbour is prev:
-            continue
-        if dfs(node, neighbour, target):
-            return True
-    return False
-'''
-
 class Solution:
-    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+    def findRedundantConnection(self, edges: list[list[int]]) -> list[int]:
         adjMap = {}
 
-        for i in range(1, len(edges) + 1):
-            adjMap[i] = []
-
-        def dfs(prev, curr, target):
-            if curr == target:
+        def dfs(src,target,prev):
+            if src == target:
                 return True
-
-            for neighbour in adjMap[curr]:
+            for neighbour in adjMap[src]:
                 if neighbour == prev:
                     continue
-                if (dfs(curr, neighbour, target)):
+                if dfs(neighbour, target, src):
                     return True
-            return False
+            return False 
 
-        for a,b in edges:
-            adjMap[a].append(b)
-            adjMap[b].append(a)
-
-            if dfs(a,b,a):
-                return [a,b]
+        for [n1,n2] in edges:
+            if n1 not in adjMap:
+                adjMap[n1] = []
+            if n2 not in adjMap:
+                adjMap[n2] = []
+                
+            adjMap[n1].append(n2)
+            adjMap[n2].append(n1)
+            if dfs(n2,n1,n1):
+                return [n1,n2]
+        
