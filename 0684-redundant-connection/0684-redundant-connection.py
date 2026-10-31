@@ -2,6 +2,9 @@ class Solution:
     def findRedundantConnection(self, edges: list[list[int]]) -> list[int]:
         adjMap = {}
 
+        for i in range (1, len(edges) + 1):
+            adjMap[i] = []
+
         def dfs(src,target,prev):
             if src == target:
                 return True
@@ -13,11 +16,6 @@ class Solution:
             return False 
 
         for [n1,n2] in edges:
-            if n1 not in adjMap:
-                adjMap[n1] = []
-            if n2 not in adjMap:
-                adjMap[n2] = []
-                
             adjMap[n1].append(n2)
             adjMap[n2].append(n1)
             if dfs(n2,n1,n1):
