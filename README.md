@@ -14,6 +14,7 @@
 | [0049-group-anagrams](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0051-n-queens](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0053-maximum-subarray](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
+| [0055-jump-game](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0078-subsets](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0079-word-search/) | Medium |
@@ -167,6 +168,7 @@
 | [0022-generate-parentheses](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
+| [0055-jump-game](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0131-palindrome-partitioning](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 ## Monotonic Stack
@@ -375,6 +377,7 @@
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0055-jump-game](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0621-task-scheduler](https://github.com/Sahil-Mhatre14/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
